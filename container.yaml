@@ -2,5 +2,5 @@
 - hosts: all
   become: true
   tasks: 
-    - name: "create docker container"
-      shell: "docker run -d --name webapp_container -p 1234:8080 jon"
+    - name: create docker container
+      shell: docker run -d --name webapp_container -p 1234:8080 jon
