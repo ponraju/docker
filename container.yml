@@ -3,4 +3,4 @@
   become: true
   tasks:  
     - name: "create docker container"
-      shell: "docker run -d --name webapp_container -p 1234:8080 srv_demo"
+      shell: "docker run -d --name webapp_container -p 1234:8080 raj_pem"
