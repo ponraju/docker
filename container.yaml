@@ -1,6 +1,6 @@
 --- 
 - hosts: all
   become: true
-  tasks:  
+  tasks: 
     - name: create docker container
-      shell: docker run -d --name webapp_container -p 1234:8080 raj_pem
+      shell: docker run -d --name webapp_container -p 1234:8080 ponraj0204/raj_pem
