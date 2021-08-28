@@ -3,4 +3,4 @@
     become: true
     tasks:
     - name: create docker container
-      shell: docker run -d --name jon -p 1234:8080 ponraj0204/jon
+      shell: docker run -d --name jon -p 1234:8080 Jssandhya/jon
